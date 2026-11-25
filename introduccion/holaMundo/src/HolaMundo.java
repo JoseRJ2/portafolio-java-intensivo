@@ -11,5 +11,6 @@ public class HolaMundo {
         }
 
         System.out.println("el valor de la variable numero2 es: " + numero2);
+        System.out.println("Configuracion de git");
     }
 }
