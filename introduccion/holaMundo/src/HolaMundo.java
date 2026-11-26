@@ -7,7 +7,7 @@ public class HolaMundo {
 
         int numero2 = 4;
         if(valor){
-            numero2 = 5;
+            numero2 = 5; 
         }
 
         System.out.println("el valor de la variable numero2 es: " + numero2);

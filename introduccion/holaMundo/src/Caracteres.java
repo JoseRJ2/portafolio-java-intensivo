@@ -13,6 +13,15 @@ public class Caracteres {
 
         System.out.println("¿En las 3 formas el caracter sigue siendo el mismo? " + (caracter == unicode && caracter == decimal && unicode ==decimal));
 
+        //caracteres especiales
+        char espacio = '\u0020';
+        char retoceso = '\b';
+        char tabulador = '\t';
+        char nuevaLinea = '\n';
+        char retornoCarro = '\r';
+
+        System.out.println("Este es"+ espacio + retoceso +" un ejemplo de"+ tabulador + " uso de los caracteres especiales"+ nuevaLinea + retornoCarro);
+
         System.out.println("un caracter contiene " + Character.BYTES + " bytes");
         System.out.println("un caracter contiene " + Character.SIZE + " bites");
         System.out.println("El valor minimo de un caracter es:" + Character.MIN_VALUE);
